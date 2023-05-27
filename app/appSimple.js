@@ -336,6 +336,8 @@ reset.addEventListener('click', function(){
 //Fullscreen button
 
 
+/*
+
 fullScreen.addEventListener('click', function() {
   if (fullScreen.requestFullscreen) {
     fulScreen.requestFullscreen();
@@ -347,4 +349,4 @@ fullScreen.addEventListener('click', function() {
 } 
 )
 
-
+*/

@@ -338,7 +338,7 @@ reset.addEventListener('click', function(){
 
 
 
-/* function openFullscreen() {
+function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.webkitRequestFullscreen) { -- Safari --
@@ -346,5 +346,5 @@ reset.addEventListener('click', function(){
   } else if (elem.msRequestFullscreen) { -- IE11 --
     elem.msRequestFullscreen();
   }
-} */
+} 
 

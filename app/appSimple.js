@@ -339,12 +339,12 @@ reset.addEventListener('click', function(){
 fullScreen.addEventLustener('click', openFullscreen)
 
 function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { -- Safari --
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { -- IE11 --
-    elem.msRequestFullscreen();
+  if (fullScreen.requestFullscreen) {
+    fulScreen.requestFullscreen();
+  } else if (fullScreen.webkitRequestFullscreen) { -- Safari --
+    fullScreen.webkitRequestFullscreen();
+  } else if (fullScreen.msRequestFullscreen) { -- IE11 --
+    fullScreen.msRequestFullscreen();
   }
 } 
 

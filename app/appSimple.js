@@ -336,9 +336,7 @@ reset.addEventListener('click', function(){
 //Fullscreen button
 
 
-fullScreen.addEventListener('click', openFullscreen)
-
-function openFullscreen() {
+fullScreen.addEventListener('click', function() {
   if (fullScreen.requestFullscreen) {
     fulScreen.requestFullscreen();
   } else if (fullScreen.webkitRequestFullscreen) { -- Safari --
@@ -347,4 +345,6 @@ function openFullscreen() {
     fullScreen.msRequestFullscreen();
   }
 } 
+)
+
 

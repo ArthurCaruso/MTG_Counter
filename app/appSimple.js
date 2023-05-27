@@ -336,7 +336,7 @@ reset.addEventListener('click', function(){
 //Fullscreen button
 
 
-fullScreen.addEventLustener('click', openFullscreen)
+fullScreen.addEventListener('click', openFullscreen)
 
 function openFullscreen() {
   if (fullScreen.requestFullscreen) {

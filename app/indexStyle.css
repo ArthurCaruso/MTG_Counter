@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=PT+Serif:ital,wght@0,400;1,700&display=swap');
+@font-face {
+    font-family: PlanewalkerStand;
+    src: url(../InPages/imgs/fonts/planewalker/Planewalker.otf)
+  }
+  @font-face {
+    font-family: PlanewalkerBold;
+    src: url(../InPages/imgs/fonts/planewalker/Planewalker\ Bold.otf)
+  }
+
+  @font-face {
+    font-family: PlanewalkerBoldItalic;
+    src: url(../InPages/imgs/fonts/planewalker/Planewalker\ Bold\ Italic.otf)
+  }
+
+  @font-face {
+    font-family: PlanewalkerItalic;
+    src: url(../InPages/imgs/fonts/planewalker/Planewalker\ Italic.otf)
+  }
+
+* {
+    margin: 0%;
+}
+
+h1 {
+    font-family: PlanewalkerStand;
+    font-size: 4vh;;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(18,76,96);
+}
+
+.nav {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5vh;
+    width: 50%;
+    background-color: antiquewhite;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2vh;
+}
+
+.options {
+    text-align: center;
+    width: 40%;
+    height: 60vw;
+    background-color: antiquewhite;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid rgba(22, 68, 136, 0.733);
+    border-radius: 1.2em;
+    font-size: 2.2vh;
+    font-style: oblique;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
